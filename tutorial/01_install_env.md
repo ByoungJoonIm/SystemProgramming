@@ -33,10 +33,26 @@
 4. 동일한 과정을 ```server1```, ```server3```에서 반복합니다. 설정은 재부팅 후 반영됩니다.
 5. 재부팅 후 다음과 같이 확인할 수 있습니다.
   ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/tutorial_01_install_09.jpg)</br>
+
+## IP 주소 확인
+서버의 포트를 설정하기 이전에 가상머신과 공인 IP 주소를 확인해야 합니다.</br>
+공인 IP는 [LINK](http://www.findip.kr/)에서 확인합니다. 가상 IP 주소는 다음과 같이 확인할 수 있습니다.
+1. ```server```의 터미널에서 다음과 같이 입력합니다.
+  ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/tutorial_01_install_10.jpg)</br>
+  enp0s3의 inet이 가상머신의 IP 주소입니다. 일반적으로 `server1`,`server2`,`server3`모두 동일합니다.</br></br>
   
+2. 1번이 에러가 나는 경우 다음과 같이 net-toos를 설치합니다.
+  ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/tutorial_01_install_11.jpg)</br>
+
+
 ## 서버의 포트 설정
 우리는 공용 IP를 사용하지만 각기 다른 서버를 구동할 것이므로 포트포워딩이 필요합니다. 
-1. virtual box에서 ```server1``` 클릭 - 설정 - 네트워크 - 고급 - 포트포워딩의 순서로 클릭합니다.
+1. virtual box에서 ```server2``` 클릭 - 설정 - 네트워크 - 고급 - 포트포워딩의 순서로 클릭합니다.
 2. 포트포워딩의 우측에 +를 클릭합니다.
 3. 다음과 같이 입력합니다.
-
+  ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/tutorial_01_install_12.jpg)</br>
+  (1) 이름은 규칙의 이름입니다.</br>
+  (2) 호스트IP는 공인 IP입니다.</br>
+  (3) 호스트 포트는 호스트 PC에 접속할 때 사용되는 포트입니다.</br>
+  (4) 게스트 포트는 가상머신에서 사용되는 포트입니다. 호스트 포트가 이 포트로 맵핑됩니다.</br>
+4. 위 과정을 `server1`, `server3`에서도 동일하게 수행합니다.
