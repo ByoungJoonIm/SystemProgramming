@@ -9,7 +9,7 @@
 - (작성중)[튜토리얼]()
 
 ## 보고서
-제안서, 보고서, 최종 PPT는 다음과 같습니다. md파일과 word파일은 양식만 다르며 내용은 같습니다.</br>
+제안서, 보고서, 최종 PPT는 다음과 같습니다.</br>
 - [제안서](https://github.com/BJ-Lim/SystemProgramming/blob/master/reports/proposal.md)
 - (작성중)[중간보고서]()
 - (작성중)[최종보고서]()
