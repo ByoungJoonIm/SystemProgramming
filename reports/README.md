@@ -2,7 +2,7 @@
 보고서 관리를 위한 폴더입니다.</br>
 
 ## 파일
-- [제안서]()
+- [제안서](https://github.com/BJ-Lim/SystemProgramming/blob/master/reports/proposal.md)
 - [중간 보고서]()
 - [최종 보고서]()
 - [최종 발표 PPT]()
