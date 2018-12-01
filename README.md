@@ -6,7 +6,7 @@
 
 ## 튜토리얼
 다음 과정을 따라하면 서버를 똑같이 구축할 수 있습니다.</br>
-- (작성중)[튜토리얼]()
+- [튜토리얼](https://github.com/BJ-Lim/SystemProgramming/blob/master/tutorial/README.md)
 
 ## 보고서
 제안서, 보고서, 최종 PPT는 다음과 같습니다.</br>
