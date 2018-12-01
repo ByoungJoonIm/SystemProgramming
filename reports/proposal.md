@@ -24,8 +24,9 @@
 ## 어플리케이션의 구성도
 - 기능
   - 한 대의 서버가 여러대의 서로 다른 서버에 일괄 명령을 내리고 결과를 돌려받는다.
-- 그림
-  -
+- 그림 </br>
+  ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/process_diagram.jpg)
+
 
 ## 기대효과 및 활용방안
  - 여러 대의 서버가 동시에 같은 동작을 수행해야 할 때 쉽게 활용 가능
