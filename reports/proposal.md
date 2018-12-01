@@ -25,7 +25,12 @@
 - 기능
   - 한 대의 서버가 여러대의 서로 다른 서버에 일괄 명령을 내리고 결과를 돌려받는다.
 - 그림 </br>
-  ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/process_diagram.jpg)
+  ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/process_diagram.jpg)</br>
+  (1,2) 연결해야 할 서버 리스트를 메모리에 로드</br>
+  (3,4) 공유메모리를 생성하고 수행할 명령어를 메모리에 로드</br>
+  (5) commander는 fork 후 execl로 서로 다른 프로세스로 소켓 생성 및 연결 / 공유메모리의 수행 명령어 전송</br>
+  (6, 7) 수신받은 명령어를 파일로 저장 / 파일의 권한 변경 / 출력 결과를 파일로 redirect</br>
+  (8) 서버는 실행 결과파일의 내용을 클라이언트로 각각 전송 / commander는 수신받은 내용을 모두 메시지 큐에 등록</br>
 
 
 ## 기대효과 및 활용방안
