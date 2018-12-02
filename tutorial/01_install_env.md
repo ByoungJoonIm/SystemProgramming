@@ -20,7 +20,7 @@
 1. 서버를 최초로 실행하면 다음과 같은 화면이 나올 수 있습니다.
   ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/tutorial_01_install_04.jpg)</br>
   기본 설정으로 ```Enter```를 누릅니다.</br></br>
-2. 자신이 기존해 설정해 놓은 ID로 로그인합니다.
+2. 자신이 기존 설정해 놓은 ID로 로그인합니다.
 3. 터미널 창에 다음과 같이 입력합니다.
   ![Style Images](https://github.com/BJ-Lim/SystemProgramming/blob/master/captures/tutorial_01_install_05.jpg)</br>
   패스워드를 입력합니다.</br></br>
