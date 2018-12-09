@@ -1,0 +1,267 @@
+[local(127.0.0.1:10000) result]
+------------------------------------------------------[hosts]------------------------------------------------
+127.0.0.1	localhost
+127.0.1.1	ibj-VirtualBox
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+-----------------------------------------------------[meminfo]-----------------------------------------------
+MemTotal:        4039720 kB
+MemFree:         1831552 kB
+MemAvailable:    2646428 kB
+Buffers:          118876 kB
+Cached:           857688 kB
+SwapCached:            0 kB
+Active:          1532268 kB
+Inactive:         425364 kB
+Active(anon):     981960 kB
+Inactive(anon):     9996 kB
+Active(file):     550308 kB
+Inactive(file):   415368 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:        969960 kB
+SwapFree:         969960 kB
+Dirty:               112 kB
+Writeback:             0 kB
+AnonPages:        981120 kB
+Mapped:           243428 kB
+Shmem:             10884 kB
+Slab:             141096 kB
+SReclaimable:     104572 kB
+SUnreclaim:        36524 kB
+KernelStack:        8640 kB
+PageTables:        40232 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2989820 kB
+Committed_AS:    4663872 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      141248 kB
+DirectMap2M:     4052992 kB
+-----------------------------------------------------[cpuinfo]-----------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz
+stepping	: 9
+microcode	: 0x19
+cpu MHz		: 3503.444
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm pti fsgsbase
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 7006.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+[server1(210.115.229.132:10001) result]
+------------------------------------------------------[hosts]------------------------------------------------
+127.0.0.1	localhost
+127.0.1.1	server1
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+-----------------------------------------------------[meminfo]-----------------------------------------------
+MemTotal:        2041308 kB
+MemFree:          153400 kB
+MemAvailable:     845136 kB
+Buffers:           85388 kB
+Cached:           699324 kB
+SwapCached:           28 kB
+Active:          1241628 kB
+Inactive:         441308 kB
+Active(anon):     781848 kB
+Inactive(anon):   126108 kB
+Active(file):     459780 kB
+Inactive(file):   315200 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:        969960 kB
+SwapFree:         969180 kB
+Dirty:               852 kB
+Writeback:             0 kB
+AnonPages:        898244 kB
+Mapped:           229884 kB
+Shmem:              9732 kB
+Slab:             129940 kB
+SReclaimable:      96624 kB
+SUnreclaim:        33316 kB
+KernelStack:        7840 kB
+PageTables:        37628 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1990612 kB
+Committed_AS:    4308548 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      120768 kB
+DirectMap2M:     1976320 kB
+-----------------------------------------------------[cpuinfo]-----------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz
+stepping	: 9
+microcode	: 0x19
+cpu MHz		: 3503.444
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm pti fsgsbase
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 7006.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+[server2(210.115.229.132:10002) result]
+------------------------------------------------------[hosts]------------------------------------------------
+127.0.0.1	localhost
+127.0.1.1	server2
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+-----------------------------------------------------[meminfo]-----------------------------------------------
+MemTotal:        2041308 kB
+MemFree:          169272 kB
+MemAvailable:     703060 kB
+Buffers:           19896 kB
+Cached:           599280 kB
+SwapCached:          536 kB
+Active:          1090828 kB
+Inactive:         549656 kB
+Active(anon):     785848 kB
+Inactive(anon):   243440 kB
+Active(file):     304980 kB
+Inactive(file):   306216 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:        969960 kB
+SwapFree:         964584 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:       1020944 kB
+Mapped:           118188 kB
+Shmem:              7980 kB
+Slab:             143268 kB
+SReclaimable:     108296 kB
+SUnreclaim:        34972 kB
+KernelStack:        7872 kB
+PageTables:        37728 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1990612 kB
+Committed_AS:    4357756 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      139200 kB
+DirectMap2M:     1957888 kB
+-----------------------------------------------------[cpuinfo]-----------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz
+stepping	: 9
+microcode	: 0x19
+cpu MHz		: 3503.444
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx rdrand hypervisor lahf_lm pti fsgsbase
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 7006.88
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+

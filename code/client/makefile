@@ -1,5 +1,5 @@
 cl=client
-CFLAGS=-D DEBUG
+#CFLAGS=-D DEBUG
 
 all: client
 
