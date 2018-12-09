@@ -10,11 +10,10 @@
 
 ## skills
 이 과정에 들어간 System programming 기법은 다음과 같습니다.
-- stat family
+- stat family / malloc
 - shared memory
 - open / read / write (base on linux)
-- fork
-- wait
+- fork / wait
 - signal
 
 ## 보고서
