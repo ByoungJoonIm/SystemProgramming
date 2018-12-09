@@ -13,7 +13,7 @@
 #include <sys/shm.h>
 #include <signal.h>
 #include "server_list.h"
-#include "message.h"
+#include "shm_key.h"
 
 int main(int argc, char *argv[]){
 	void *shared_memory = (void *)0;

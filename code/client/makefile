@@ -3,7 +3,7 @@ CFLAGS=-D DEBUG
 
 all: client
 
-client : $(cl).c server_list.h message.h
+client : $(cl).c server_list.h shm_key.h
 	gcc $(cl).c -o $(cl) ${CFLAGS}
 
 clean: 
