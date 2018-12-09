@@ -8,6 +8,15 @@
 다음 과정을 따라하면 서버를 똑같이 구축할 수 있습니다.</br>
 - [튜토리얼](https://github.com/BJ-Lim/SystemProgramming/blob/master/tutorial/README.md)
 
+## skills
+이 과정에 들어간 System programming 기법은 다음과 같습니다.
+- stat family
+- shared memory
+- open / read / write (base on linux)
+- fork
+- wait
+- signal
+
 ## 보고서
 제안서, 보고서, 최종 PPT는 다음과 같습니다.</br>
 - [제안서](https://github.com/BJ-Lim/SystemProgramming/blob/master/reports/proposal.md)
@@ -16,8 +25,9 @@
 - (작성중)[최종PPT]()
 
 ## 코드
-다음은 서버의 코드입니다.
-- (작성중)[서버 코드]()
+다음은 서버들의 코드입니다.
+- [서버 코드](https://github.com/BJ-Lim/SystemProgramming/blob/master/code/server/server.c)
+- [클라이언트 코드](https://github.com/BJ-Lim/SystemProgramming/blob/master/code/client/client.c)
 
 ## 폴더
 ```
