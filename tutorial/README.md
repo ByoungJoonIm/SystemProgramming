@@ -3,4 +3,6 @@
 
 ## 과정
 1. [서버 환경 구축하기](https://github.com/BJ-Lim/SystemProgramming/blob/master/tutorial/01_install_env.md)
+2. [코드 클론하기](https://github.com/BJ-Lim/SystemProgramming/blob/master/tutorial/02_clone_code.md)
+3. [데모]()
 
