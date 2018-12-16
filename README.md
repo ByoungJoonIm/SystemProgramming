@@ -15,6 +15,7 @@
 - open / read / write (base on linux)
 - fork / wait
 - signal
+- socket
 
 ## 보고서
 제안서, 보고서, 최종 PPT는 다음과 같습니다.</br>
